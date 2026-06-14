@@ -25,11 +25,7 @@
 .team__card {
   display: flex;
   align-items: center;
-  background: linear-gradient(
-    to right bottom,
-    rgb(46, 204, 113, 0.8),
-    rgb(46, 204, 113, 0.6)
-  );
+  background-color: #555;
 }
 
 .team__card-img img {
@@ -38,8 +34,8 @@
 
 .team__card-details {
   font-size: 1.6rem;
-  color: #222;
-  padding: 0.8rem;
+  color: #fff;
+  padding: 0 0.8rem;
 }
 
 .team__card h3 {

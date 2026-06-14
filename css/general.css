@@ -65,8 +65,8 @@ html {
 body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  background-color: #176639;
-  color: #fff;
+  background-color: #ecf0f1;
+  color: #333;
   line-height: 1;
 }
 
@@ -94,9 +94,4 @@ body {
 
 .grid {
   display: grid;
-}
-
-.grid-col--3 {
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.6rem;
 }
