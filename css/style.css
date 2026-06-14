@@ -20,11 +20,26 @@
 /* TEAM SECTION */
 
 .team__section {
-  background-color: orangered;
 }
 
 .team__card {
-  background-color: yellow;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    to right bottom,
+    rgb(46, 204, 113, 0.8),
+    rgb(46, 204, 113, 0.6)
+  );
+}
+
+.team__card-img img {
+  display: block;
+}
+
+.team__card-details {
+  font-size: 1.6rem;
+  color: #222;
+  padding: 0.8rem;
 }
 
 .team__card h3 {
@@ -32,5 +47,8 @@
 }
 
 .team__card p {
-  font-size: 1.4rem;
+}
+
+.team__card a {
+  color: inherit;
 }
