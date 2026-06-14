@@ -68,3 +68,30 @@ body {
   color: #333;
   line-height: 1;
 }
+
+/* UTILITY CLASS */
+
+.margin-b--s {
+  margin-bottom: 2.4rem;
+}
+
+.margin-b--m {
+  margin-bottom: 4.8rem;
+}
+
+/* LAYOUT CLASS */
+
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  padding: 1.6rem;
+}
+
+.grid-col--3 {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+}

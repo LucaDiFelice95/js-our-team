@@ -1,0 +1,36 @@
+/* HEADER */
+
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 5.2rem;
+  letter-spacing: 0.75px;
+}
+
+.header p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+/* MAIN */
+
+/* TEAM SECTION */
+
+.team__section {
+  background-color: orangered;
+}
+
+.team__card {
+  background-color: yellow;
+}
+
+.team__card h3 {
+  font-size: 1.8rem;
+}
+
+.team__card p {
+  font-size: 1.4rem;
+}
